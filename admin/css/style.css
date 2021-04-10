@@ -1,0 +1,80 @@
+body{padding:0; margin:0; font-family:arial;}
+
+ /*---section-one-adminpannel---*/
+.admin-logo{margin-bottom:20px; text-align:center; }
+.admin-logo img{width:100%;}
+.admin-section-one{background-color:#000; 
+  width:250px;
+  height:100vh;
+  overflow:auto;
+  box-shadow:0px 0px 12px 0px #000;
+  position:fixed;
+  top:0;
+  left:0;
+  }
+.admin-ul{padding-left:0; margin:0;}
+.admin-ul li{list-style:none; padding:5px 20px}
+.admin-ul li a{color:#fff;
+ padding:12px 30px;
+ display:block;
+ text-decoration:none;
+ font-size:18px;
+ }
+ .admin-ul li a:hover{background-color:#d21818;
+ border-radius:5px;
+ color:#fff
+ }
+ 
+ 
+ /*---header-adminpannel---*/
+ .admin-main-two{margin-left:280px; padding-top:10px}
+ .admin-search input{width:450px; height:40px;padding-left:20px }
+ .admin-search-btn{width:100px;
+ height:40px;
+ border:0;
+ background-color:#c11e1e;
+ color:#fff;font-size:17px; border-radius:8px; text-align:center;}
+ 
+ 
+ /*---register-left-section---*/
+.main-two{display:flex; flex-wrap:wrap; width:100%; max-width:950px; margin:auto; padding-top:30px}
+.box-one-reg{
+	background-image:url('../asset/register.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.two-btn{text-align:right; padding-top:25px}
+.two-btn a{border:1px solid #c1bbbb;padding:6px 17px; color:#000; text-decoration:none;}
+.two-btn a:hover{background-color:#005ccb; color:#fff}
+.manage-btn{margin-right:-5pxpx}
+.box-two-reg{padding:0px 40px; box-shadow:0px 0px 11px 2px #bdb9b9}
+.main-text{padding-top:100px; padding-bottom:100px }
+.main-text h2{font-size:35px;font-weight:600; color:#4a4848; margin-bottom:37px;}
+.reg-input-main input{width:100%;}
+.reg-email{padding:20px 0px}
+.main-btn button{ background-color:#005ccb; 
+color:#fff; 
+text-align:center; 
+width:90%; 
+height:60px;
+border:none; 
+cursor:pointer;
+ font-size:20px}
+.main-btn{padding-top:25px;text-align:center;padding-bottom:30px}
+.check-box h4{font-size:13px; display:inline-block; color:#abaeb1; position:relative; left:88px}
+.right{text-align:right;}
+.h4-one{font-size:13px; font-weight:600; color:#615f5f;}
+.h4-two{font-size:13px; font-weight:600; color:#908c8c;}
+
+
+/*--product-add--*/
+.pa-main{margin-left:280px; padding-top:40px}
+#error{color:red; font-size:18px; padding-bottom:10px }
+
+
+/*--table-section---*/
+.admin-main-two table{text-align:center;}
+.edit a{background-color:#1e718a; text-decoration:none; color:#fff; padding:12px 23px; border-radius:10px }
+.admin-main-two table tr:hover{background-color:#dcd4d4;}
+.edit a:nth-child(2){background-color:#bb2222; margin-left:12px}
+
